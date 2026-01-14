@@ -1,6 +1,6 @@
 /*!
  * @license
- * Copyright 2017 Google Inc.
+ * Copyright 2017 Google LLC
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -18,7 +18,7 @@
 'use strict';
 
 // Use untyped import syntax for Node built-ins
-import path = require('path');
+import * as path from 'path';
 
 import * as _ from 'lodash';
 import * as sinon from 'sinon';
